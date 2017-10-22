@@ -6,21 +6,31 @@
         <include>lv complete</include>
         <variable constant="0" name="sprOp" sid="329658545110015" static="0" type="number">100</variable>
         <variable constant="0" name="numOfApple" sid="762284892221801" static="0" type="number">0</variable>
-        <event-block sid="605688992969516">
+        <event-block sid="140132884672171">
             <conditions>
-                <condition id="6" name="On object clicked" sid="876479649177783" type="Mouse">
+                <condition id="-2" name="On start of layout" sid="783757661553264" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="271425811128354" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="218305990303887">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="375811063321880" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">Apple</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-10" name="Add to" sid="257750858664295" type="System">
+                <action id="-10" name="Add to" sid="311837487329338" type="System">
                     <param id="0" name="Variable">numOfApple</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="-9" name="Destroy" sid="880047262150466" type="Apple" />
-                <action id="0" name="Set text" sid="154248824073925" type="Text">
+                <action id="-9" name="Destroy" sid="749134322994456" type="Apple" />
+                <action id="0" name="Set text" sid="120655695479745" type="Text">
                     <param id="0" name="Text">numOfApple</param>
                 </action>
             </actions>
