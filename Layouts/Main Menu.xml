@@ -155,7 +155,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite" uid="22">
+                <instance type="titleFont" uid="22">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -165,14 +165,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>528.731018066</x>
-                        <y>108.072418213</y>
+                        <x>465.731018066</x>
+                        <y>84.072418213</y>
                         <z>0</z>
                         <width>616.263549805</width>
                         <height>153.655044556</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="princessAlice" uid="27">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>684</x>
+                        <y>348</y>
+                        <z>0</z>
+                        <width>263.74987793</width>
+                        <height>329.687347412</height>
+                        <depth>0</depth>
+                        <hotspotX>0.532894731</hotspotX>
+                        <hotspotY>0.714035094</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
