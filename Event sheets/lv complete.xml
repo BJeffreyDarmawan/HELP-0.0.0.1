@@ -84,5 +84,17 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <event-block sid="963343347066691">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="457224433716188" type="Keyboard">
+                    <param id="0" name="Key">83 (S)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-36" name="Save" sid="303914457042827" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
