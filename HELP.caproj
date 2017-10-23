@@ -18,8 +18,11 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -219,6 +222,116 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="Map(1)">
+            <object-type name="bg" sid="712736399028830">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(1)\bg.jpg" />
+            </object-type>
+            <object-type name="Tilemap" sid="419532035695975">
+                <plugin id="Tilemap" />
+                <texture original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(1)\path.png" />
+                <tiles />
+            </object-type>
+            <object-type name="castle" sid="349296099239347">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="714919626959713" speed="5">
+                        <frame duration="1" hotspotX="1.39237" hotspotY="0.786693" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(1)\castle.png">
+                            <collision-poly>
+                                <point x="0.51894" y="0.641659" />
+                                <point x="1" y="0.318286" />
+                                <point x="1" y="0.78639" />
+                                <point x="1" y="1" />
+                                <point x="0.486802" y="0.960793" />
+                                <point x="0.46203" y="0.78639" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="boulder" sid="934771860335594">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="468705242834787" speed="5">
+                        <frame duration="1" hotspotX="0.715481" hotspotY="0.71875" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(1)\boulder.png">
+                            <collision-poly>
+                                <point x="0.0083682" y="0.43125" />
+                                <point x="0.715481" y="0.3" />
+                                <point x="0.983264" y="0.7125" />
+                                <point x="0.715481" y="0.90625" />
+                                <point x="0.0753138" y="0.9" />
+                                <point x="0.0251046" y="0.7125" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="camp" sid="713429527065909">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="952267122369355" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.568" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(1)\camp.png">
+                            <collision-poly>
+                                <point x="0.240521" y="0.312" />
+                                <point x="0.5" y="0.0533333" />
+                                <point x="0.78673" y="0.250667" />
+                                <point x="0.797393" y="0.565333" />
+                                <point x="0.835308" y="0.992" />
+                                <point x="0.5" y="0.325333" />
+                                <point x="0.199052" y="0.914667" />
+                                <point x="0.0853081" y="0.565333" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="forest" sid="580555634351292">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="491552363261134" speed="5">
+                        <frame duration="1" hotspotX="0.904872" hotspotY="0.436195" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(1)\forest.png">
+                            <collision-poly>
+                                <point x="0.512761" y="0.329466" />
+                                <point x="0.904872" y="0.280742" />
+                                <point x="1" y="0.433875" />
+                                <point x="0.904872" y="0.505801" />
+                                <point x="0.549884" y="0.50348" />
+                                <point x="0.522042" y="0.433875" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="grannyHouse" sid="815946001394435">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="215780895014069" speed="5">
+                        <frame duration="1" hotspotX="1.025" hotspotY="0.560078" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(1)\rumah-nenek.png">
+                            <collision-poly>
+                                <point x="0.139286" y="0.418605" />
+                                <point x="0.992857" y="0.560078" />
+                                <point x="0.732143" y="0.0639535" />
+                                <point x="0.0178573" y="0.767442" />
+                                <point x="0.00357143" y="0.560078" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="invisibleTembok" sid="216872854094620">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="858760674059359">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="320952012394421" speed="5">
+                        <frame duration="1" hotspotX="0.502203" hotspotY="0.502203" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(1)\bg.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Mouse" sid="491050109774132">
             <plugin id="Mouse" />
         </object-type>
@@ -278,6 +391,10 @@
         <object-type name="Keyboard" sid="770390053257599">
             <plugin id="Keyboard" />
         </object-type>
+        <object-type name="TiledBackground2" sid="474363036236245">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
     </object-folder>
     <families>
         <family name="mainmenuButtons" plugin-id="Sprite" sid="784078290341237">
@@ -290,7 +407,7 @@
     </families>
     <layout-folder>
         <layout>Main Menu.xml</layout>
-        <layout>Map.xml</layout>
+        <layout>Map 1.xml</layout>
         <layout>lv 1.xml</layout>
         <layout>lv complete.xml</layout>
         <layout>lv 2.xml</layout>
@@ -298,7 +415,7 @@
     </layout-folder>
     <event-folder>
         <event-sheet>Main Menu.xml</event-sheet>
-        <event-sheet>Map.xml</event-sheet>
+        <event-sheet>Map 1.xml</event-sheet>
         <event-sheet>lv 1.xml</event-sheet>
         <event-sheet>lv complete.xml</event-sheet>
         <event-sheet>lv 2.xml</event-sheet>
