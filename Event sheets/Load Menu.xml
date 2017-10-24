@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Load Menu</name>
+    <events>
+        <variable constant="0" name="user" sid="993988205445140" static="0" type="text"></variable>
+        <event-block sid="619095251122455">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="926719560287977" type="Mouse">
+                    <param id="0" name="Object">mainmenuButtons</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Compare two values" sid="595740660651326" type="System">
+                    <param id="0" name="First value">mainmenuButtons.Width</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">350</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="714806507088950" type="mainmenuButtons">
+                    <param id="0" name="Width">350</param>
+                    <param id="1" name="Height">55</param>
+                </action>
+                <action id="25" name="Play at object" sid="323445014012325" type="Audio">
+                    <param id="0" name="Audio file">toolur_dettpp</param>
+                    <param id="1" name="Loop">0</param>
+                    <param id="2" name="Volume">25</param>
+                    <param id="3" name="Object">mainmenuButtons</param>
+                    <param id="4" name="Inner angle">360</param>
+                    <param id="5" name="Outer angle">360</param>
+                    <param id="6" name="Outer gain">0</param>
+                    <param id="7" name="Tag (optional)">&quot;http://www.freesfx.co.uk&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="439994185983606">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="664282055132837" type="Mouse">
+                    <param id="0" name="Object">mainmenuButtons</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="718129112445830" type="mainmenuButtons">
+                    <param id="0" name="Width">325</param>
+                    <param id="1" name="Height">50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="863305910154448">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="210772663689198" type="Mouse">
+                    <param id="0" name="Object">loadNyet1</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Compare two values" sid="525334448393144" type="System">
+                    <param id="0" name="First value">loadNyet1.Width</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">175</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="607145824130772" type="loadNyet1">
+                    <param id="0" name="Width">175</param>
+                    <param id="1" name="Height">60</param>
+                </action>
+                <action id="25" name="Play at object" sid="753202678422878" type="Audio">
+                    <param id="0" name="Audio file">toolur_dettpp</param>
+                    <param id="1" name="Loop">0</param>
+                    <param id="2" name="Volume">25</param>
+                    <param id="3" name="Object">mainmenuButtons</param>
+                    <param id="4" name="Inner angle">360</param>
+                    <param id="5" name="Outer angle">360</param>
+                    <param id="6" name="Outer gain">0</param>
+                    <param id="7" name="Tag (optional)">&quot;http://www.freesfx.co.uk&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="267852380497851">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="259942551874135" type="Mouse">
+                    <param id="0" name="Object">loadNyet1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="911481272505372" type="loadNyet1">
+                    <param id="0" name="Width">150</param>
+                    <param id="1" name="Height">50</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="689041588713228">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="657754379275363" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">nameBut1</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="155629819177406">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="322766261158735" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">nameBut2</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="643185583659569">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="885824637897675" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">nameBut3</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="940556177333234">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="672400797072869" type="System" />
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="147404894488527" type="System">
+                    <param id="0" name="Slot">&quot;players&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="600331033862538">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="863855315869489" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">loadNyet1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="444192806688651">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="262582484928964" type="System">
+                            <param id="0" name="Variable">user</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="664102885737955" type="Text">
+                            <param id="0" name="Text">&quot;bitj&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="139866229348087">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="890099305472516" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Check item exists" sid="973221870871762" type="LocalStorage">
+                    <param id="0" name="Key">&quot;user1&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="760304553226462" type="LocalStorage">
+                    <param id="0" name="Key">&quot;user2&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="104621786438122" type="LocalStorage">
+                    <param id="0" name="Key">&quot;user3&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="670874655843593">
+            <conditions>
+                <condition id="9" name="On item exists" sid="554953204811185" type="LocalStorage">
+                    <param id="0" name="Key">&quot;user1&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="566124322091220" type="slot1">
+                    <param id="0" name="Text">LocalStorage.ItemValue</param>
+                </action>
+                <action id="-9" name="Set value" sid="577537344925966" type="System">
+                    <param id="0" name="Variable">user</param>
+                    <param id="1" name="Value">LocalStorage.ItemValue</param>
+                </action>
+                <action id="1" name="Get item" sid="268560221173226" type="LocalStorage">
+                    <param id="0" name="Key">&quot;stage1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="695025732143826">
+            <conditions>
+                <condition id="9" name="On item exists" sid="577100062122282" type="LocalStorage">
+                    <param id="0" name="Key">&quot;user2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="446364112148129" type="slot2">
+                    <param id="0" name="Text">LocalStorage.ItemValue</param>
+                </action>
+                <action id="-9" name="Set value" sid="198661565271935" type="System">
+                    <param id="0" name="Variable">user</param>
+                    <param id="1" name="Value">LocalStorage.ItemValue</param>
+                </action>
+                <action id="1" name="Get item" sid="139843424361243" type="LocalStorage">
+                    <param id="0" name="Key">&quot;stage2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="912360953894946">
+            <conditions>
+                <condition id="9" name="On item exists" sid="450033987422679" type="LocalStorage">
+                    <param id="0" name="Key">&quot;user3&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="361850757863227" type="slot3">
+                    <param id="0" name="Text">LocalStorage.ItemValue</param>
+                </action>
+                <action id="-9" name="Set value" sid="670047004883484" type="System">
+                    <param id="0" name="Variable">user</param>
+                    <param id="1" name="Value">LocalStorage.ItemValue</param>
+                </action>
+                <action id="1" name="Get item" sid="953218563745485" type="LocalStorage">
+                    <param id="0" name="Key">&quot;stage3&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="811995656002310">
+            <conditions>
+                <condition id="1" name="On item get" sid="444595639037984" type="LocalStorage">
+                    <param id="0" name="Key">&quot;stage1&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="544757075147954" type="System">
+                    <param id="0" name="Variable">stage</param>
+                    <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                </action>
+                <action id="0" name="Set text" sid="329676545449136" type="Text">
+                    <param id="0" name="Text">stage</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="492652894971045">
+            <conditions>
+                <condition id="1" name="On item get" sid="395113630468773" type="LocalStorage">
+                    <param id="0" name="Key">&quot;stage2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="255925378770154" type="System">
+                    <param id="0" name="Variable">stage</param>
+                    <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                </action>
+                <action id="0" name="Set text" sid="575845820623300" type="Text">
+                    <param id="0" name="Text">stage</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="134644010162728">
+            <conditions>
+                <condition id="1" name="On item get" sid="881300739864591" type="LocalStorage">
+                    <param id="0" name="Key">&quot;stage3&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="171965521722355" type="System">
+                    <param id="0" name="Variable">stage</param>
+                    <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                </action>
+                <action id="0" name="Set text" sid="304075686304169" type="Text">
+                    <param id="0" name="Text">stage</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

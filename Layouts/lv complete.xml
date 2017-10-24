@@ -49,7 +49,7 @@
                         <opacity>0.75</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="24">
+                <instance type="lvComp" uid="24">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -71,7 +71,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite3" uid="25">
+                <instance type="clicktoCont" uid="25">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

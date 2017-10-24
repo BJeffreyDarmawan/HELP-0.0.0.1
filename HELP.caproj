@@ -14,6 +14,7 @@
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
@@ -332,6 +333,146 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="Load Menu">
+            <object-type name="loadNyet1" sid="744383672435546">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="slot1" sid="583138860061515" type="string" />
+                    <instance-variable name="slot2" sid="693702256604902" type="string" />
+                    <instance-variable name="slot3" sid="748379635954806" type="string" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="378566568200832" speed="5">
+                        <frame duration="1" hotspotX="0.445698" hotspotY="1.11152" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\MAIN MENU\load_button.png">
+                            <collision-poly>
+                                <point x="0.00141044" y="0.591078" />
+                                <point x="0.444288" y="0.00371747" />
+                                <point x="0.997179" y="0.304833" />
+                                <point x="0.647391" y="0.996283" />
+                                <point x="0.242595" y="0.996283" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="nameBut1" sid="232578727889047">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="767196702354257" speed="5">
+                        <frame duration="1" hotspotX="0.500284" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\button_bg.png">
+                            <collision-poly>
+                                <point x="0.0159001" y="0.105263" />
+                                <point x="0.499716" y="0" />
+                                <point x="0.9841" y="0.105263" />
+                                <point x="1" y="0.5" />
+                                <point x="0.9841" y="0.894737" />
+                                <point x="0.499716" y="1" />
+                                <point x="0.0159001" y="0.894737" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="slot1" sid="428643696895888">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="slot2" sid="191408162033699">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="nameBut2" sid="897985825453460">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="221725287752066" speed="5">
+                        <frame duration="1" hotspotX="0.500284" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\button_bg.png">
+                            <collision-poly>
+                                <point x="0.0159001" y="0.105263" />
+                                <point x="0.499716" y="0" />
+                                <point x="0.9841" y="0.105263" />
+                                <point x="1" y="0.5" />
+                                <point x="0.9841" y="0.894737" />
+                                <point x="0.499716" y="1" />
+                                <point x="0.0159001" y="0.894737" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="nameBut3" sid="145304638030418">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="577300179178757" speed="5">
+                        <frame duration="1" hotspotX="0.500284" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\button_bg.png">
+                            <collision-poly>
+                                <point x="0.0159001" y="0.105263" />
+                                <point x="0.499716" y="0" />
+                                <point x="0.9841" y="0.105263" />
+                                <point x="1" y="0.5" />
+                                <point x="0.9841" y="0.894737" />
+                                <point x="0.499716" y="1" />
+                                <point x="0.0159001" y="0.894737" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="slot3" sid="345000169747582">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Sprite" sid="384380483259169">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="176724370023316" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50289" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\Untitled.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="lvComplete">
+            <object-type name="TiledBackground" sid="325301897722813">
+                <plugin id="TiledBg" />
+                <texture original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\black_bg.png" />
+            </object-type>
+            <object-type name="lvComp" sid="124876780016745">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299674260943514" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\lv_complete.png">
+                            <collision-poly>
+                                <point x="0.0729032" y="0.353125" />
+                                <point x="0.5" y="0.2625" />
+                                <point x="0.943871" y="0.271875" />
+                                <point x="0.985806" y="0.5" />
+                                <point x="0.960645" y="0.809375" />
+                                <point x="0.04" y="0.80625" />
+                                <point x="0.00774194" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="clicktoCont" sid="837900883443546">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="292457565915450" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\click_to_cont.png">
+                            <collision-poly>
+                                <point x="0.0410526" y="0.24375" />
+                                <point x="0.5" y="0.26875" />
+                                <point x="0.959474" y="0.240625" />
+                                <point x="0.981579" y="0.5" />
+                                <point x="0.963158" y="0.78125" />
+                                <point x="0.5" y="0.75" />
+                                <point x="0.0389474" y="0.76875" />
+                                <point x="0.02" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Mouse" sid="491050109774132">
             <plugin id="Mouse" />
         </object-type>
@@ -344,56 +485,14 @@
         <object-type name="Audio" sid="127994026024636">
             <plugin id="Audio" />
         </object-type>
-        <object-type name="TiledBackground" sid="325301897722813">
-            <plugin id="TiledBg" />
-            <texture original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\black_bg.png" />
-        </object-type>
-        <object-type name="Sprite2" sid="124876780016745">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299674260943514" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\lv_complete.png">
-                        <collision-poly>
-                            <point x="0.0729032" y="0.353125" />
-                            <point x="0.5" y="0.2625" />
-                            <point x="0.943871" y="0.271875" />
-                            <point x="0.985806" y="0.5" />
-                            <point x="0.960645" y="0.809375" />
-                            <point x="0.04" y="0.80625" />
-                            <point x="0.00774194" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite3" sid="837900883443546">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="292457565915450" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\click_to_cont.png">
-                        <collision-poly>
-                            <point x="0.0410526" y="0.24375" />
-                            <point x="0.5" y="0.26875" />
-                            <point x="0.959474" y="0.240625" />
-                            <point x="0.981579" y="0.5" />
-                            <point x="0.963158" y="0.78125" />
-                            <point x="0.5" y="0.75" />
-                            <point x="0.0389474" y="0.76875" />
-                            <point x="0.02" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Text" sid="502817195994623">
             <plugin id="Text" />
         </object-type>
         <object-type name="Keyboard" sid="770390053257599">
             <plugin id="Keyboard" />
         </object-type>
-        <object-type name="TiledBackground2" sid="474363036236245">
-            <plugin id="TiledBg" />
-            <texture />
+        <object-type name="LocalStorage" sid="187432682632990">
+            <plugin id="LocalStorage" />
         </object-type>
     </object-folder>
     <families>
@@ -401,6 +500,9 @@
             <members>
                 <member>exitButton</member>
                 <member>loadButton</member>
+                <member>nameBut1</member>
+                <member>nameBut2</member>
+                <member>nameBut3</member>
                 <member>startButton</member>
             </members>
         </family>
@@ -412,6 +514,7 @@
         <layout>lv complete.xml</layout>
         <layout>lv 2.xml</layout>
         <layout>Map 2.xml</layout>
+        <layout>Load Menu.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Main Menu.xml</event-sheet>
@@ -420,6 +523,7 @@
         <event-sheet>lv complete.xml</event-sheet>
         <event-sheet>lv 2.xml</event-sheet>
         <event-sheet>Map 2.xml</event-sheet>
+        <event-sheet>Load Menu.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="1" />
@@ -440,6 +544,7 @@
             </properties>
         </global-instance>
         <global-instance type="Keyboard" uid="28" />
+        <global-instance type="LocalStorage" uid="80" />
     </global-instances>
     <sounds-folder />
     <music-folder>
