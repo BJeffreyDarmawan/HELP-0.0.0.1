@@ -2,5 +2,74 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Map 1</name>
-    <events />
+    <events>
+        <event-block sid="369893619809434">
+            <conditions>
+                <condition behavior="8Direction" id="0" name="Is moving" sid="342599024298854" type="char" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="320216891008903">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="985976153005884" type="System">
+                            <param id="0" name="First value">char.8Direction.MovingAngle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">-90</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="379038169957324" type="char">
+                            <param id="0" name="Animation">&quot;up&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="508454208377182">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="709599165425932" type="System">
+                            <param id="0" name="First value">char.8Direction.MovingAngle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="852516358654909" type="char">
+                            <param id="0" name="Animation">&quot;right&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="113435654913255">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="173662829138326" type="System">
+                            <param id="0" name="First value">char.8Direction.MovingAngle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">90</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="234150414920715" type="char">
+                            <param id="0" name="Animation">&quot;down&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="888944509387562">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="201524698659054" type="System">
+                            <param id="0" name="First value">char.8Direction.MovingAngle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">180</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="297036704258654" type="char">
+                            <param id="0" name="Animation">&quot;left&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
 </c2eventsheet>
