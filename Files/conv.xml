@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<story>
+		<speaker> KING </speaker>
+		<conversation id="conv1">!!!!!!!!!!!!!!!!!!!!!!!!!!!</conversation>
+		<conversation id="conv2">The Princess is missing!!!</conversation>
+		<conversation id="conv3">Someone find her!!</conversation>
+		<conversation id="conv4">You!</conversation>
+		<conversation id="conv5">Find The Princess!</conversation>
+		<conversation id="conv6">NOW!</conversation>
+		<conversation id="conv7">000</conversation>
+		<conversation id="conv8">Oh no!</conversation>
+		<conversation id="conv9">My apples!</conversation>
+		<conversation id="conv10">Oh, hi there, would you help me to find my apples?</conversation>
+		<conversation id="conv11">Thank you so much :)</conversation>
+		<conversation id="conv12">000</conversation>
+		<conversation id="conv13">Wow, that was quick, thanks a lot!</conversation>
+		<conversation id="conv14">Are you asking me where the princess went?</conversation>
+		<conversation id="conv15">Oh! She ran into the forest.</conversation>
+		<conversation id="conv16">You're welcome :)</conversation>
+	</story>
