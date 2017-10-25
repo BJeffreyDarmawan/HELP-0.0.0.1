@@ -88,7 +88,7 @@
                     <param id="1" name="Tag (optional)">&quot;http://www.freesfx.co.uk&quot;</param>
                 </action>
                 <action id="-2" name="Go to layout" sid="943493446185205" type="System">
-                    <param id="0" name="Layout">lv 1</param>
+                    <param id="0" name="Layout">Map 1</param>
                 </action>
             </actions>
         </event-block>
