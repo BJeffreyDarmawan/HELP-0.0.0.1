@@ -636,6 +636,10 @@
         </object-type>
         <object-type name="char" sid="514026158656688">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="distx" sid="460966555374929" type="number" />
+                <instance-variable name="disty" sid="428572228060604" type="number" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="8Direction" sid="428364302987151">
                     <behavior id="EightDir" />
@@ -788,6 +792,9 @@
             <texture original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\bg_txt.png" />
         </object-type>
         <object-type name="Conversation" sid="756274745450281">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Speaker" sid="344496664476534">
             <plugin id="Text" />
         </object-type>
     </object-folder>

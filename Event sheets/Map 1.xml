@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Map 1</name>
     <events>
+        <variable constant="0" name="story" sid="426766674932760" static="0" type="number">0</variable>
         <variable constant="0" name="beenHere" sid="431756229560937" static="0" type="number">0</variable>
         <variable constant="0" name="conv" sid="548250039939251" static="0" type="number">1</variable>
         <event-block sid="369893619809434">
@@ -88,6 +89,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-9" name="Set value" sid="549755827936110" type="System">
+                            <param id="0" name="Variable">story</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                         <action id="-7" name="Scroll to position" sid="216185474009196" type="System">
                             <param id="0" name="X">0</param>
                             <param id="1" name="Y">0</param>
@@ -179,17 +184,24 @@
                 <action id="-15" name="Set visible" sid="149227045643389" type="Conversation_bg">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="0" name="Call function" sid="203437524051388" type="Function">
+                    <param id="0" name="Name">&quot;setSpeaker&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-15" name="Set visible" sid="484148417312462" type="Speaker">
+                    <param id="0" name="Visibility">1</param>
+                </action>
                 <action id="0" name="Set text" sid="765174706067779" type="Conversation">
                     <param id="0" name="Text">conv</param>
                 </action>
                 <action id="-16" name="Wait" sid="548023433066056" type="System">
-                    <param id="0" name="Seconds">1</param>
+                    <param id="0" name="Seconds">0.3</param>
                 </action>
                 <action id="0" name="Set text" sid="272429324546765" type="Conversation">
                     <param id="0" name="Text">xml.StringValue(&quot;/story/conversation[@id=&apos;conv&quot;&amp;conv&amp;&quot;&apos;]/text()&quot;)</param>
                 </action>
                 <action id="-16" name="Wait" sid="667395626213301" type="System">
-                    <param id="0" name="Seconds">1</param>
+                    <param id="0" name="Seconds">0.3</param>
                 </action>
                 <action id="-10" name="Add to" sid="382224127539396" type="System">
                     <param id="0" name="Variable">conv</param>
@@ -227,29 +239,23 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="885490698279898">
-                    <conditions>
-                        <condition id="-8" name="Compare two values" sid="299533086110576" type="System">
-                            <param id="0" name="First value">scrolly</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Second value">char.Y</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="993413973439014" type="char">
-                            <param id="0" name="State">1</param>
-                        </action>
-                    </actions>
-                </event-block>
                 <event-block sid="867470659206721">
                     <conditions>
                         <condition id="-9" name="Is visible" sid="201697717444427" type="Conversation" />
+                        <condition id="-4" name="Trigger once while true" sid="715812084438653" type="System" />
                     </conditions>
                     <actions>
+                        <action id="-10" name="Add to" sid="597737784425171" type="System">
+                            <param id="0" name="Variable">story</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="370255398383146" type="Conversation">
                             <param id="0" name="Visibility">0</param>
                         </action>
                         <action id="-15" name="Set visible" sid="765283160352318" type="Conversation_bg">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="336627616694186" type="Speaker">
                             <param id="0" name="Visibility">0</param>
                         </action>
                     </actions>
@@ -272,10 +278,175 @@
                     <param id="0" name="Y">scrolly+1</param>
                 </action>
                 <action id="-16" name="Wait" sid="193735899701201" type="System">
-                    <param id="0" name="Seconds">0.02</param>
+                    <param id="0" name="Seconds">0.001</param>
                 </action>
                 <action id="0" name="Call function" sid="562807001786919" type="Function">
                     <param id="0" name="Name">&quot;scroll&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="158991373008863">
+            <conditions>
+                <condition id="0" name="On function" sid="455049745636792" type="Function">
+                    <param id="0" name="Name">&quot;setSpeaker&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="653887765224222">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="752226815219857" type="System">
+                            <param id="0" name="Variable">story</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="170889439844691" type="Speaker">
+                            <param id="0" name="Text">&quot;KING&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="184568191223307">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="536730820790799" type="System">
+                            <param id="0" name="Variable">story</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="922551562798542" type="Speaker">
+                            <param id="0" name="Text">&quot;Elder Woman&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="788413387302140">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="836594422386664" type="System">
+                            <param id="0" name="Variable">story</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="735975983050206" type="Speaker">
+                            <param id="0" name="Text">&quot;Elder Woman&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="885490698279898">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="299533086110576" type="System">
+                    <param id="0" name="First value">scrolly</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">char.Y</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="ScrollTo" id="1" name="Set enabled" sid="993413973439014" type="char">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="206194131230562" title="EVENT NENEK" />
+        <event-block sid="442686917397087">
+            <conditions>
+                <condition id="-21" name="Is between values" sid="965865914142052" type="System">
+                    <param id="0" name="Value">char.X</param>
+                    <param id="1" name="Lower bound">680</param>
+                    <param id="2" name="Upper bound">1020</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="667026061579088">
+                    <conditions>
+                        <condition id="-21" name="Is between values" sid="858640330432899" type="System">
+                            <param id="0" name="Value">char.Y</param>
+                            <param id="1" name="Lower bound">470</param>
+                            <param id="2" name="Upper bound">750</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="179392453574332" type="System">
+                            <param id="0" name="Variable">story</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="947378614663389" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="865474771139192" type="System">
+                            <param id="0" name="Variable">conv</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="498127734035579" type="char">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="8Direction" id="3" name="Set speed" sid="425937511148657" type="char">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                        <action behavior="8Direction" id="8" name="Set enabled" sid="526600475030677" type="char">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="678156147053841" type="char">
+                            <param id="0" name="Instance variable">distx</param>
+                            <param id="1" name="Value">(1025-char.X)/200</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="744477519497479" type="char">
+                            <param id="0" name="Instance variable">disty</param>
+                            <param id="1" name="Value">(625-char.Y)/200</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="323528440000722" type="Speaker">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="954311315258898" type="Speaker">
+                            <param id="0" name="Text">char.distx</param>
+                        </action>
+                        <action disabled="1" id="-7" name="Scroll to position" sid="882961420440434" type="System">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="637880819370380" type="Function">
+                            <param id="0" name="Name">&quot;viewToGranny&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="488182956390898">
+            <conditions>
+                <condition id="0" name="On function" sid="313327310816664" type="Function">
+                    <param id="0" name="Name">&quot;viewToGranny&quot;</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="480724085020269" type="System">
+                    <param id="0" name="First value">scrolly</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">625</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="467512976830575" type="System">
+                    <param id="0" name="First value">scrollx</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">1025</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action disabled="1" id="-7" name="Scroll to position" sid="641288965755849" type="System">
+                    <param id="0" name="X">scrollx+char.distx</param>
+                    <param id="1" name="Y">scrolly+char.disty</param>
+                </action>
+                <action id="-7" name="Scroll to position" sid="344234224312144" type="System">
+                    <param id="0" name="X">1025</param>
+                    <param id="1" name="Y">625</param>
+                </action>
+                <action id="-16" name="Wait" sid="606921735130851" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="0" name="Call function" sid="463773029652282" type="Function">
+                    <param id="0" name="Name">&quot;viewToGranny&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
