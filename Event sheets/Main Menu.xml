@@ -142,11 +142,5 @@
                 <action id="1" name="Close" sid="997846135264674" type="Browser" />
             </actions>
         </event-block>
-        <event-block sid="542202012115875">
-            <conditions>
-                <condition id="-29" name="On load complete" sid="777928961474572" type="System" />
-            </conditions>
-            <actions />
-        </event-block>
     </events>
 </c2eventsheet>

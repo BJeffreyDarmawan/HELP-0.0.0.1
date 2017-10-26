@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Map 1</name>
     <events>
+        <variable constant="0" name="beenHere" sid="431756229560937" static="0" type="number">0</variable>
+        <variable constant="0" name="conv" sid="548250039939251" static="0" type="number">1</variable>
         <event-block sid="369893619809434">
             <conditions>
                 <condition behavior="8Direction" id="0" name="Is moving" sid="342599024298854" type="char" />
@@ -70,6 +72,213 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="831504405119535">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="978112104832737" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="932735773469180">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="621845724634941" type="System">
+                            <param id="0" name="First value">beenHere</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Scroll to position" sid="216185474009196" type="System">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">0</param>
+                        </action>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="939223779527716" type="Apple">
+                            <param id="0" name="Angle">90</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="721143882822613" type="Apple">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="443687614226604" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="1" name="Request project file" sid="278123759344795" type="AJAX">
+                            <param id="0" name="Tag">&quot;convo&quot;</param>
+                            <param id="1" name="File">conv.xml</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="875194231611617">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="284002367315671" type="System">
+                            <param id="0" name="First value">beenHere</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="332229385882552">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="470976803578447" type="System">
+                    <param id="0" name="First value">Apple.Y</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">330</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="947156524208915" type="Apple">
+                    <param id="0" name="Angle">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="553478787160192">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="172483873358534" type="System">
+                    <param id="0" name="First value">Apple.X</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">900</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="747389523771702" type="Apple" />
+            </actions>
+        </event-block>
+        <event-block sid="906524826066352">
+            <conditions>
+                <condition id="0" name="On completed" sid="785672362768583" type="AJAX">
+                    <param id="0" name="Tag">&quot;convo&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Load" sid="831155115884250" type="XML">
+                    <param id="0" name="XML">AJAX.LastData</param>
+                </action>
+                <action id="0" name="Call function" sid="551814889908831" type="Function">
+                    <param id="0" name="Name">&quot;story&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="889902614182428">
+            <conditions>
+                <condition id="0" name="On function" sid="810205570474432" type="Function">
+                    <param id="0" name="Name">&quot;story&quot;</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Compare two values" sid="925014372749194" type="System">
+                    <param id="0" name="First value">xml.StringValue(&quot;/story/conversation[@id=&apos;conv&quot;&amp;conv&amp;&quot;&apos;]/text()&quot;)</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">&quot;000&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="996633280766843" type="Conversation">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="149227045643389" type="Conversation_bg">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Set text" sid="765174706067779" type="Conversation">
+                    <param id="0" name="Text">conv</param>
+                </action>
+                <action id="-16" name="Wait" sid="548023433066056" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="0" name="Set text" sid="272429324546765" type="Conversation">
+                    <param id="0" name="Text">xml.StringValue(&quot;/story/conversation[@id=&apos;conv&quot;&amp;conv&amp;&quot;&apos;]/text()&quot;)</param>
+                </action>
+                <action id="-16" name="Wait" sid="667395626213301" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="382224127539396" type="System">
+                    <param id="0" name="Variable">conv</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="920778669079241" type="Function">
+                    <param id="0" name="Name">&quot;story&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="162924387145229">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="330898637655317" type="System">
+                    <param id="0" name="First value">xml.StringValue(&quot;/story/conversation[@id=&apos;conv&quot;&amp;conv&amp;&quot;&apos;]/text()&quot;)</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">&quot;000&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="294215510621899">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Compare two values" sid="311299608633912" type="System">
+                            <param id="0" name="First value">scrolly</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Second value">char.Y</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="843369973445896" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="532951136698282" type="Function">
+                            <param id="0" name="Name">&quot;scroll&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="885490698279898">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="299533086110576" type="System">
+                            <param id="0" name="First value">scrolly</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Second value">char.Y</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="993413973439014" type="char">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="867470659206721">
+                    <conditions>
+                        <condition id="-9" name="Is visible" sid="201697717444427" type="Conversation" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="370255398383146" type="Conversation">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="765283160352318" type="Conversation_bg">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="704669886452078">
+            <conditions>
+                <condition id="0" name="On function" sid="538179183942912" type="Function">
+                    <param id="0" name="Name">&quot;scroll&quot;</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Compare two values" sid="639723112161430" type="System">
+                    <param id="0" name="First value">scrolly</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">char.Y</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-6" name="Scroll to Y" sid="328803565570513" type="System">
+                    <param id="0" name="Y">scrolly+1</param>
+                </action>
+                <action id="-16" name="Wait" sid="193735899701201" type="System">
+                    <param id="0" name="Seconds">0.02</param>
+                </action>
+                <action id="0" name="Call function" sid="562807001786919" type="Function">
+                    <param id="0" name="Name">&quot;scroll&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

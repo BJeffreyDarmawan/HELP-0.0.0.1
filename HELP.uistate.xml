@@ -10,13 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="4">lv 1</layout>
-        <layout active="1" order="0">Map 2</layout>
-        <layout order="1">Map 1</layout>
-        <layout order="2">Main Menu</layout>
-        <event-sheet order="5">lv 1</event-sheet>
-        <event-sheet order="3">Main Menu</event-sheet>
-        <event-sheet order="6">Map 2</event-sheet>
+        <layout active="1" order="1">Map 1</layout>
+        <event-sheet order="2">Map 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -25,7 +20,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1">
-        <family expanded="1" name="mainmenuButtons" />
+        <family expanded="0" name="mainmenuButtons" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
@@ -34,13 +29,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="object-folder/Map(1)/" />
         <folder expanded="0" path="object-folder/Load Menu/" />
         <folder expanded="0" path="object-folder/lvComplete/" />
-        <folder expanded="1" path="object-folder/Map(2)/" />
+        <folder expanded="0" path="object-folder/Map(2)/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="0" path="music-folder/" />
-        <folder expanded="1" path="file-folder/Icons/" />
+        <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/exitButton/" />
         <folder expanded="1" path="animation-folder/loadButton/" />
         <folder expanded="1" path="animation-folder/startButton/" />
