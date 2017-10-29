@@ -1299,11 +1299,21 @@
                                 <directions>4 directions</directions>
                                 <set-angle>No</set-angle>
                                 <default-controls>Yes</default-controls>
-                                <initial-state>Enabled</initial-state>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="ScrollTo">
                             <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>0</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>No</set-angle>
                                 <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
