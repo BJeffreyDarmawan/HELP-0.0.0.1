@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>moveNfn</name>
+    <events>
+        <event-block sid="255103664289211">
+            <conditions>
+                <condition behavior="8Direction" id="0" name="Is moving" sid="169677078016440" type="char" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="170546300764766">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="330635110012534" type="System">
+                            <param id="0" name="First value">char.8Direction.MovingAngle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">-90</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="935468644415571" type="char">
+                            <param id="0" name="Animation">&quot;up&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="723430672654633">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="274385457132981" type="System">
+                            <param id="0" name="First value">char.8Direction.MovingAngle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="374784634701380" type="char">
+                            <param id="0" name="Animation">&quot;right&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="958088481152263">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="516474825900278" type="System">
+                            <param id="0" name="First value">char.8Direction.MovingAngle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">90</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="403245611829937" type="char">
+                            <param id="0" name="Animation">&quot;down&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="859882376843745">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="219902893126461" type="System">
+                            <param id="0" name="First value">char.8Direction.MovingAngle</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">180</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="311003976235757" type="char">
+                            <param id="0" name="Animation">&quot;left&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="804490089158028">
+            <conditions>
+                <condition id="0" name="On function" sid="530483465945839" type="Function">
+                    <param id="0" name="Name">&quot;createMSGDialog&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="185469490263697" type="System">
+                    <param id="0" name="Object to create">Conversation_bg</param>
+                    <param id="1" name="Layer">5</param>
+                    <param id="2" name="X">17</param>
+                    <param id="3" name="Y">352</param>
+                </action>
+                <action id="-3" name="Create object" sid="869151911748118" type="System">
+                    <param id="0" name="Object to create">Speaker</param>
+                    <param id="1" name="Layer">5</param>
+                    <param id="2" name="X">30.611</param>
+                    <param id="3" name="Y">364.27</param>
+                </action>
+                <action id="-3" name="Create object" sid="448692164755561" type="System">
+                    <param id="0" name="Object to create">Conversation</param>
+                    <param id="1" name="Layer">5</param>
+                    <param id="2" name="X">31.477</param>
+                    <param id="3" name="Y">387.627</param>
+                </action>
+                <action id="-15" name="Set visible" sid="143340178754698" type="Conversation">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="676610830438193" type="Speaker">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="281731979400882" type="Conversation_bg">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

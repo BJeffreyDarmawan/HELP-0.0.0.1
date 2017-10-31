@@ -830,6 +830,7 @@
         <event-sheet>lv 2.xml</event-sheet>
         <event-sheet>Map 2.xml</event-sheet>
         <event-sheet>Load Menu.xml</event-sheet>
+        <event-sheet>moveNfn.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="1" />

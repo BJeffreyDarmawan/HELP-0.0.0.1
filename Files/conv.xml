@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<story>
-		<speaker> KING </speaker>
 		<conversation id="conv1">!!!!!!!!!!!!!!!!!!!!!!!!!!!</conversation>
 		<conversation id="conv2">The Princess is missing!!!</conversation>
 		<conversation id="conv3">Someone find her!!</conversation>
@@ -17,4 +16,5 @@
 		<conversation id="conv14">Are you asking me where the princess went?</conversation>
 		<conversation id="conv15">Oh! She ran into the forest.</conversation>
 		<conversation id="conv16">You're welcome :)</conversation>
+		<conversation id="conv17">000</conversation>
 	</story>

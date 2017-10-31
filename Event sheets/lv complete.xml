@@ -12,19 +12,19 @@
             <actions>
                 <action id="-3" name="Create object" sid="383153186361834" type="System">
                     <param id="0" name="Object to create">TiledBackground</param>
-                    <param id="1" name="Layer">0</param>
+                    <param id="1" name="Layer">3</param>
                     <param id="2" name="X">0</param>
                     <param id="3" name="Y">0</param>
                 </action>
                 <action id="-3" name="Create object" sid="170611382118417" type="System">
                     <param id="0" name="Object to create">lvComp</param>
-                    <param id="1" name="Layer">0</param>
+                    <param id="1" name="Layer">3</param>
                     <param id="2" name="X">427</param>
                     <param id="3" name="Y">231</param>
                 </action>
                 <action id="-3" name="Create object" sid="604852350601920" type="System">
                     <param id="0" name="Object to create">clicktoCont</param>
-                    <param id="1" name="Layer">0</param>
+                    <param id="1" name="Layer">3</param>
                     <param id="2" name="X">434</param>
                     <param id="3" name="Y">343</param>
                 </action>
@@ -61,7 +61,7 @@
                             <param id="0" name="Opacity">TiledBackground.Opacity+3</param>
                         </action>
                         <action id="-16" name="Wait" sid="609044244810177" type="System">
-                            <param id="0" name="Seconds">0.3</param>
+                            <param id="0" name="Seconds">0.1</param>
                         </action>
                         <action id="0" name="Call function" sid="381544859384263" type="Function">
                             <param id="0" name="Name">&quot;re&quot;</param>

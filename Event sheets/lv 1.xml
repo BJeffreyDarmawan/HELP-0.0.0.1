@@ -17,6 +17,9 @@
                 <action behavior="Bullet" id="5" name="Set enabled" sid="436175188300749" type="Apple">
                     <param id="0" name="State">0</param>
                 </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="516337831430720" type="Apple">
+                    <param id="0" name="Angle">90</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="218305990303887">
@@ -28,13 +31,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-10" name="Add to" sid="311837487329338" type="System">
-                    <param id="0" name="Variable">numOfApple</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-9" name="Destroy" sid="749134322994456" type="Apple" />
                 <action id="0" name="Set text" sid="120655695479745" type="Text">
                     <param id="0" name="Text">numOfApple</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="726227728197119" type="Apple">
+                    <param id="0" name="State">1</param>
                 </action>
             </actions>
         </event-block>
@@ -151,6 +152,24 @@
                 </action>
                 <action id="-2" name="Go to layout" sid="783250430574681" type="System">
                     <param id="0" name="Layout">Map 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="926327736715693">
+            <conditions>
+                <condition behavior="Bullet" id="1" name="Compare distance travelled" sid="657708221840981" type="Apple">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Distance">300</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="837326423130201" type="Apple">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="868448515567151" type="Apple" />
+                <action id="-10" name="Add to" sid="311837487329338" type="System">
+                    <param id="0" name="Variable">numOfApple</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
