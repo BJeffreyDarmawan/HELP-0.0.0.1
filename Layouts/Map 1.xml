@@ -1333,7 +1333,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Apple" uid="82">
+                <instance type="ncess" uid="157">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1343,11 +1343,11 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
-                                <speed>400</speed>
+                                <speed>300</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>Yes</set-angle>
+                                <set-angle>No</set-angle>
                                 <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -1355,15 +1355,37 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>155.548126221</x>
-                        <y>187.646133423</y>
+                        <x>156.104019165</x>
+                        <y>175.962722778</y>
                         <z>0</z>
-                        <width>37.738437653</width>
-                        <height>38.740341187</height>
+                        <width>48.910137177</width>
+                        <height>64.84715271</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0.408162206</angle>
+                        <hotspotX>0.38202247</hotspotX>
+                        <hotspotY>0.525423706</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Granny" uid="82">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1099.603759766</x>
+                        <y>621.682678223</y>
+                        <z>0</z>
+                        <width>28.412506104</width>
+                        <height>65.298919678</height>
+                        <depth>0</depth>
+                        <hotspotX>0.488721818</hotspotX>
+                        <hotspotY>0.500545263</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

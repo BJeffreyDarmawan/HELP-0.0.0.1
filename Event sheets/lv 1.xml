@@ -50,7 +50,7 @@
             <actions>
                 <action id="0" name="Spawn another object" sid="630060450942952" type="Orange">
                     <param id="0" name="Object">X</param>
-                    <param id="1" name="Layer">0</param>
+                    <param id="1" name="Layer">3</param>
                     <param id="2" name="Image point">0</param>
                 </action>
             </actions>
@@ -97,10 +97,9 @@
                 </event-block>
                 <event-block sid="630534077274992">
                     <conditions>
-                        <condition id="-8" name="Compare two values" sid="943280965395608" type="System">
-                            <param id="0" name="First value">X.Opacity</param>
-                            <param id="1" name="Comparison">3</param>
-                            <param id="2" name="Second value">0</param>
+                        <condition id="-10" name="Compare opacity" sid="943280965395608" type="X">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Opacity">0</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -170,6 +169,22 @@
                 <action id="-10" name="Add to" sid="311837487329338" type="System">
                     <param id="0" name="Variable">numOfApple</param>
                     <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="988237792862127">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="117347746628984" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="320042955226207" type="Sprite6">
+                    <param id="0" name="Object">X</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="Image point">0</param>
                 </action>
             </actions>
         </event-block>

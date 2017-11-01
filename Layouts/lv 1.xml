@@ -169,8 +169,8 @@
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>Yes</set-angle>
-                                <initial-state>Enabled</initial-state>
+                                <set-angle>No</set-angle>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -221,11 +221,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-126</x>
-                        <y>416</y>
+                        <x>-166.941314697</x>
+                        <y>456.941314697</y>
                         <z>0</z>
-                        <width>190.871688843</width>
-                        <height>190.871688843</height>
+                        <width>45.365184784</width>
+                        <height>45.365184784</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -243,14 +243,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>369</x>
-                        <y>258</y>
+                        <x>376.580993652</x>
+                        <y>213.204528809</y>
                         <z>0</z>
                         <width>52.938228607</width>
                         <height>46.280353546</height>
                         <depth>0</depth>
-                        <hotspotX>0.392638028</hotspotX>
-                        <hotspotY>1.21754384</hotspotY>
+                        <hotspotX>0.444785267</hotspotX>
+                        <hotspotY>0.55438596</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -265,14 +265,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>455</x>
-                        <y>268</y>
+                        <x>458.446289063</x>
+                        <y>225.272918701</y>
                         <z>0</z>
                         <width>52.938228607</width>
                         <height>46.280353546</height>
                         <depth>0</depth>
-                        <hotspotX>0.392638028</hotspotX>
-                        <hotspotY>1.21754384</hotspotY>
+                        <hotspotX>0.444785267</hotspotX>
+                        <hotspotY>0.55438596</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -287,14 +287,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>455</x>
-                        <y>295</y>
+                        <x>453.62210083</x>
+                        <y>272.947540283</y>
                         <z>0</z>
                         <width>28.296674728</width>
                         <height>24.737890244</height>
                         <depth>0</depth>
-                        <hotspotX>0.392638028</hotspotX>
-                        <hotspotY>1.21754384</hotspotY>
+                        <hotspotX>0.444785267</hotspotX>
+                        <hotspotY>0.55438596</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -309,14 +309,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>375</x>
-                        <y>331</y>
+                        <x>376.37789917</x>
+                        <y>284.826629639</y>
                         <z>0</z>
                         <width>52.938228607</width>
                         <height>46.280353546</height>
                         <depth>0</depth>
-                        <hotspotX>0.392638028</hotspotX>
-                        <hotspotY>1.21754384</hotspotY>
+                        <hotspotX>0.444785267</hotspotX>
+                        <hotspotY>0.55438596</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -331,14 +331,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>473</x>
-                        <y>425</y>
+                        <x>478.513641357</x>
+                        <y>397.433868408</y>
                         <z>0</z>
                         <width>52.938228607</width>
                         <height>46.280353546</height>
                         <depth>0</depth>
-                        <hotspotX>0.392638028</hotspotX>
-                        <hotspotY>1.21754384</hotspotY>
+                        <hotspotX>0.444785267</hotspotX>
+                        <hotspotY>0.55438596</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -353,14 +353,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>362</x>
-                        <y>416</y>
+                        <x>359.243164063</x>
+                        <y>362.934051514</y>
                         <z>0</z>
                         <width>52.938228607</width>
                         <height>46.280353546</height>
                         <depth>0</depth>
-                        <hotspotX>0.392638028</hotspotX>
-                        <hotspotY>1.21754384</hotspotY>
+                        <hotspotX>0.444785267</hotspotX>
+                        <hotspotY>0.55438596</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -379,7 +379,7 @@
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>Yes</set-angle>
+                                <set-angle>No</set-angle>
                                 <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -435,8 +435,8 @@
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>Yes</set-angle>
-                                <initial-state>Enabled</initial-state>
+                                <set-angle>No</set-angle>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -469,8 +469,8 @@
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>Yes</set-angle>
-                                <initial-state>Enabled</initial-state>
+                                <set-angle>No</set-angle>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -503,8 +503,8 @@
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>Yes</set-angle>
-                                <initial-state>Enabled</initial-state>
+                                <set-angle>No</set-angle>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
