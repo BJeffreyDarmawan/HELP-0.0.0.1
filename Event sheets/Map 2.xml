@@ -51,6 +51,32 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="369919425124012">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="306439298495851" type="System">
+                            <param id="0" name="Variable">beenHere</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="977677104628023" type="char">
+                            <param id="0" name="X">wolf_sprite.X-50</param>
+                            <param id="1" name="Y">wolf_sprite.Y</param>
+                        </action>
+                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="223128292954161" type="char">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="487461948444836" type="System">
+                            <param id="0" name="Variable">conv</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="711583929769199" type="Function">
+                            <param id="0" name="Name">&quot;story&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-block>
         <event-block sid="682654389146429">
@@ -127,6 +153,122 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="105072870123987">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="756947665658686" type="System">
+                    <param id="0" name="First value">char.X</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">550</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="814384590174348" type="System">
+                    <param id="0" name="Variable">conv</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="ScrollTo" id="1" name="Set enabled" sid="521747944610079" type="char">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="8Direction" id="3" name="Set speed" sid="776923215189683" type="char">
+                    <param id="0" name="Speed">0</param>
+                </action>
+                <action behavior="8Direction" id="8" name="Set enabled" sid="504070856151040" type="char">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-10" name="Set value" sid="852800575679276" type="char">
+                    <param id="0" name="Instance variable">distx</param>
+                    <param id="1" name="Value">(wolf_sprite.X-char.X)/200</param>
+                </action>
+                <action id="-10" name="Set value" sid="504402909801525" type="char">
+                    <param id="0" name="Instance variable">disty</param>
+                    <param id="1" name="Value">(wolf_sprite.Y-char.Y)/200</param>
+                </action>
+                <action id="0" name="Call function" sid="209940198226810" type="Function">
+                    <param id="0" name="Name">&quot;viewToWolf&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-16" name="Wait" sid="550481408774725" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="656280808951575" type="char">
+                    <param id="0" name="Speed">200</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="982976234137063" type="char">
+                    <param id="0" name="Angle">0</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="688405000186005" type="char">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="942152831350893">
+            <conditions>
+                <condition id="0" name="On function" sid="559986416224004" type="Function">
+                    <param id="0" name="Name">&quot;viewToWolf&quot;</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="179805689961750" type="System">
+                    <param id="0" name="First value">scrollx</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Second value">wolf_sprite.X</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Scroll to position" sid="720929959810777" type="System">
+                    <param id="0" name="X">scrollx+char.distx</param>
+                    <param id="1" name="Y">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="611220771611733" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="0" name="Call function" sid="735598512693596" type="Function">
+                    <param id="0" name="Name">&quot;viewToGranny&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="310964113059131">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="383594977461195" type="System">
+                    <param id="0" name="First value">char.X</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">wolf_sprite.X-50</param>
+                </condition>
+                <condition behavior="Bullet" id="0" name="Compare speed" sid="227705238371402" type="char">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Speed">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="0" name="Set speed" sid="615364229193932" type="char">
+                    <param id="0" name="Speed">0</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="740082758181899" type="char">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="351818421840312" type="char">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="0" name="Call function" sid="794104434748177" type="Function">
+                    <param id="0" name="Name">&quot;story&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="805494330864147">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="207007488510897" type="System">
+                    <param id="0" name="Variable">story</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="607688301287983" type="System" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="802634500240006" type="System">
+                    <param id="0" name="Layout">lv 2</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

@@ -444,6 +444,10 @@
                 <action id="-2" name="Go to layout" sid="736779730958716" type="System">
                     <param id="0" name="Layout">Map 2</param>
                 </action>
+                <action id="-10" name="Add to" sid="747958388424836" type="System">
+                    <param id="0" name="Variable">beenHere</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
     </events>
