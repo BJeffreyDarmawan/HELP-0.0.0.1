@@ -907,6 +907,94 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="lv 3">
+            <object-type name="bush" sid="308579760470661">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="456488785345817" speed="5">
+                        <frame duration="1" hotspotX="0.402516" hotspotY="0.453782" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(2)-Lvl3\bush.png">
+                            <collision-poly>
+                                <point x="0.402516" y="0.453782" />
+                                <point x="0.654088" y="0.117647" />
+                                <point x="0.584906" y="0.453782" />
+                                <point x="0.805031" y="0.991597" />
+                                <point x="0.0188679" y="0.966387" />
+                                <point x="0.396226" y="0.453782" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="bg3" sid="992726589590109">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="221253964159796" speed="5">
+                        <frame duration="1" hotspotX="0.500103" hotspotY="0.500184" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(2)-Lvl3\bg.png">
+                            <collision-poly>
+                                <point x="0.000206228" y="0.000367242" />
+                                <point x="0.499897" y="0.345575" />
+                                <point x="0.931326" y="0.122292" />
+                                <point x="0.999794" y="0.499816" />
+                                <point x="0.999794" y="0.999633" />
+                                <point x="0.000206228" y="0.999633" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="anakSheep" sid="400934988219439">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="262814809463309" speed="5">
+                        <frame duration="1" hotspotX="0.46087" hotspotY="1.14773" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(2)-Lvl3\anak-sapi.png">
+                            <collision-poly>
+                                <point x="0.0347826" y="0.590909" />
+                                <point x="0.46087" y="0.0454545" />
+                                <point x="0.982609" y="0.465909" />
+                                <point x="0.0521739" y="0.613636" />
+                                <point x="0.46087" y="0.852273" />
+                                <point x="0.713044" y="0.818182" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="mamaSheep" sid="517483158263985">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579573968105340" speed="5">
+                        <frame duration="1" hotspotX="0.451531" hotspotY="0.787004" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(2)-Lvl3\mama-sheep.png">
+                            <collision-poly>
+                                <point x="0.609694" y="0.783394" />
+                                <point x="0.734694" y="0.740072" />
+                                <point x="0.451531" y="0.942238" />
+                                <point x="0.0586735" y="0.895307" />
+                                <point x="0.0612244" y="0.783394" />
+                                <point x="0.0790817" y="0.703971" />
+                                <point x="0.451531" y="0.00361014" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="cloudsheep" sid="705902164347880">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="543172654719277" speed="5">
+                        <frame duration="1" hotspotX="0.72" hotspotY="1.26087" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(2)-Lvl3\cloud.png">
+                            <collision-poly>
+                                <point x="0.1" y="0.25" />
+                                <point x="0.72" y="0.402174" />
+                                <point x="0.986667" y="0.826087" />
+                                <point x="0.54" y="0.967391" />
+                                <point x="0.72" y="0.826087" />
+                                <point x="0.973333" y="0.847826" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Mouse" sid="491050109774132">
             <plugin id="Mouse" />
         </object-type>
@@ -1150,6 +1238,7 @@
         <layout>Map 2.xml</layout>
         <layout>Load Menu.xml</layout>
         <layout>StartMenu.xml</layout>
+        <layout>lv 3.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Main Menu.xml</event-sheet>
@@ -1161,6 +1250,7 @@
         <event-sheet>Load Menu.xml</event-sheet>
         <event-sheet>moveNfn.xml</event-sheet>
         <event-sheet>StartMenu.xml</event-sheet>
+        <event-sheet>lv 3.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="1" />
