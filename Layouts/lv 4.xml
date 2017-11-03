@@ -92,28 +92,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="buletitem_SHOWN" uid="461">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>783</x>
-                        <y>907</y>
-                        <z>0</z>
-                        <width>93.994682312</width>
-                        <height>93.994682312</height>
-                        <depth>0</depth>
-                        <hotspotX>0.576190472</hotspotX>
-                        <hotspotY>0.817460299</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="buletitem_SHOWN" uid="486">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -132,28 +110,6 @@
                         <depth>0</depth>
                         <hotspotX>0.576190472</hotspotX>
                         <hotspotY>0.817460299</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="wheel_dragThis_buletItemGone_thisgone_CARGO" uid="487">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1642</x>
-                        <y>666</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.516339898</hotspotX>
-                        <hotspotY>0.753268003</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

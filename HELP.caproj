@@ -19,6 +19,7 @@
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
         <plugin author="Scirra" id="XML" version="1">XML</plugin>
@@ -532,6 +533,9 @@
                         <frame duration="1" hotspotX="0.5" hotspotY="0.50289" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\Untitled.png" />
                     </animation>
                 </animation-folder>
+            </object-type>
+            <object-type name="uNoPleiYet" sid="157605784927429">
+                <plugin id="Text" />
             </object-type>
         </object-folder>
         <object-folder name="lvComplete">
@@ -1302,6 +1306,44 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="Start Menu">
+            <object-type name="type_yourName" sid="469673743759738">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="438530741454523" speed="5">
+                        <frame duration="1" hotspotX="0.67062" hotspotY="0.487342" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\type_yourName.png">
+                            <collision-poly>
+                                <point x="0.0930657" y="0.265823" />
+                                <point x="0.67062" y="0.446203" />
+                                <point x="0.992701" y="0.487342" />
+                                <point x="0.67062" y="0.993671" />
+                                <point x="0.0328467" y="0.917722" />
+                                <point x="0.00456204" y="0.487342" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TextBox" sid="979706864926141">
+                <plugin id="TextBox" />
+            </object-type>
+            <object-type name="startButton2" sid="593333117074330">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="875295114424205" speed="5">
+                        <frame duration="1" hotspotX="0.445698" hotspotY="1.11152" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\MAIN MENU\start_button.png">
+                            <collision-poly>
+                                <point x="0.00141044" y="0.591078" />
+                                <point x="0.444288" y="0.00371747" />
+                                <point x="0.997179" y="0.304833" />
+                                <point x="0.647391" y="0.996283" />
+                                <point x="0.242595" y="0.996283" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Mouse" sid="491050109774132">
             <plugin id="Mouse" />
         </object-type>
@@ -1546,6 +1588,7 @@
                 <member>nameBut2</member>
                 <member>nameBut3</member>
                 <member>startButton</member>
+                <member>startButton2</member>
             </members>
         </family>
     </families>

@@ -306,9 +306,26 @@
                     <param id="0" name="Name">&quot;setPositionVariables&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
-                <action id="0" name="Set text" sid="928206061321542" type="Text">
-                    <param id="0" name="Text">broc.posx</param>
+                <action id="-15" name="Set visible" sid="924423217007046" type="Conversation_bg">
+                    <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="-15" name="Set visible" sid="876755796044745" type="Conversation_bg">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Set text" sid="927911916734207" type="Conversation">
+                    <param id="0" name="Text">&quot;Help Little wolf eating his meal by draging the foods towards him.&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="698108866947168" type="System">
+                    <param id="0" name="Seconds">4</param>
+                </action>
+                <action id="0" name="Set text" sid="757966366529146" type="Conversation">
+                    <param id="0" name="Text">&quot;Little Wolf does not like vegetables, he only eats meat.&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="901976766457608" type="System">
+                    <param id="0" name="Seconds">4</param>
+                </action>
+                <action id="-9" name="Destroy" sid="690730424160385" type="Conversation_bg" />
+                <action id="-9" name="Destroy" sid="577808383901089" type="Conversation" />
             </actions>
         </event-block>
         <event-block sid="491345634924368">
