@@ -10,12 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Map 2</layout>
-        <layout active="1" order="2">lv 3</layout>
-        <layout order="3">lv 2</layout>
-        <event-sheet order="1">Map 2</event-sheet>
-        <event-sheet order="4">lv 2</event-sheet>
-        <event-sheet order="5">lv 3</event-sheet>
+        <layout order="0">lv 1</layout>
+        <layout order="1">lv 2</layout>
+        <layout order="2">lv 3</layout>
+        <layout active="1" order="3">lv 4</layout>
+        <layout order="4">Map 3</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -35,7 +34,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/lvComplete/" />
         <folder expanded="0" path="object-folder/Map(2)/" />
         <folder expanded="0" path="object-folder/lv 2/" />
-        <folder expanded="1" path="object-folder/lv 3/" />
+        <folder expanded="0" path="object-folder/lv 3/" />
+        <folder expanded="0" path="object-folder/Map(3)/" />
+        <folder expanded="1" path="object-folder/lv 4/" />
+        <folder expanded="1" path="object-folder/lv 4/mobil/" />
+        <folder expanded="1" path="object-folder/lv 4/Rambu/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
@@ -90,7 +93,24 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/anakSheep/" />
         <folder expanded="1" path="animation-folder/mamaSheep/" />
         <folder expanded="1" path="animation-folder/cloudsheep/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/car_SHOWN/" />
+        <folder expanded="1" path="animation-folder/buletitem_SHOWN/" />
+        <folder expanded="1" path="animation-folder/wheel_dragThis_buletItemGone_thisgone_CARGO/" />
+        <folder expanded="1" path="animation-folder/stop_0/" />
+        <folder expanded="1" path="animation-folder/stop_1/" />
+        <folder expanded="1" path="animation-folder/stop2/" />
+        <folder expanded="1" path="animation-folder/Sprite10/" />
+        <folder expanded="1" path="animation-folder/Sprite11/" />
+        <folder expanded="1" path="animation-folder/Sprite12/" />
+        <folder expanded="1" path="animation-folder/Sprite13/" />
+        <folder expanded="1" path="animation-folder/Sprite14/" />
+        <folder expanded="1" path="animation-folder/Sprite15/" />
+        <folder expanded="1" path="animation-folder/bglv4/" />
         <folder expanded="1" path="animation-folder/char/" />
         <folder expanded="1" path="animation-folder/ncess/" />
+        <folder expanded="1" path="animation-folder/solidz/" />
     </folders-expanded>
 </c2uistate>
