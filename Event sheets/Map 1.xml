@@ -150,6 +150,10 @@
                         <action id="-15" name="Set visible" sid="336627616694186" type="Speaker">
                             <param id="0" name="Visibility">0</param>
                         </action>
+                        <action id="0" name="Call function" sid="696320587379037" type="Function">
+                            <param id="0" name="Name">&quot;saveGame&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="885490698279898">
