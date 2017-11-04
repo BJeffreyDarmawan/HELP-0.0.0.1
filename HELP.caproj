@@ -1344,6 +1344,196 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="lv 5">
+            <object-type name="bg_lv5" sid="283271592882899">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="716931153358934" speed="5">
+                        <frame duration="1" hotspotX="0.500103" hotspotY="0.500184" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(4)-Lvl5\bg.png">
+                            <collision-poly>
+                                <point x="0.0763044" y="0.13588" />
+                                <point x="0.499897" y="0.224018" />
+                                <point x="0.860177" y="0.24899" />
+                                <point x="0.999794" y="0.499816" />
+                                <point x="0.999794" y="0.999633" />
+                                <point x="0.000206228" y="0.999633" />
+                                <point x="0.000206228" y="0.499816" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="pohon_monyet" sid="133871462386218">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="335689913126141" speed="5">
+                        <frame duration="1" hotspotX="0.500705" hotspotY="0.429603" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(4)-Lvl5\pohon1.png">
+                            <collision-poly>
+                                <point x="0.248237" y="0.00361011" />
+                                <point x="0.500705" y="0.0914561" />
+                                <point x="0.717913" y="0.0336943" />
+                                <point x="0.794076" y="0.4284" />
+                                <point x="0.550071" y="0.681107" />
+                                <point x="0.500705" y="0.998797" />
+                                <point x="0.404795" y="0.720818" />
+                                <point x="0.0521862" y="0.4284" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="rumput_kucing" sid="239375248030272">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="591114193705613" speed="5">
+                        <frame duration="1" hotspotX="0.525394" hotspotY="1.66426" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(4)-Lvl5\bush.png">
+                            <collision-poly>
+                                <point x="0.0998249" y="0.155235" />
+                                <point x="0.525394" y="0.0180505" />
+                                <point x="0.926445" y="0.205776" />
+                                <point x="0.525394" y="0.916968" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="awan_elang" sid="856578205866271">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="592469935812585" speed="5">
+                        <frame duration="1" hotspotX="0.50625" hotspotY="1.67458" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(4)-Lvl5\awan1.png">
+                            <collision-poly>
+                                <point x="0.090625" y="0.179661" />
+                                <point x="0.50625" y="0.00338986" />
+                                <point x="0.839063" y="0.359322" />
+                                <point x="0.50625" y="0.945763" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="pond_frog" sid="598707763353771">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="470846130180042" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.502304" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(4)-Lvl5\drawn-pond-3.png">
+                            <collision-poly>
+                                <point x="0.143229" y="0.253456" />
+                                <point x="0.5" y="0.179724" />
+                                <point x="0.848958" y="0.267281" />
+                                <point x="0.989583" y="0.497696" />
+                                <point x="0.90625" y="0.834101" />
+                                <point x="0.5" y="0.917051" />
+                                <point x="0.0807292" y="0.857143" />
+                                <point x="0.0572917" y="0.497696" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="grass_lion" sid="820517856441922">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="960108826223253" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501066" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(4)-Lvl5\Grass-clip-art-free-free-clipart-images-4.png">
+                            <collision-poly>
+                                <point x="0.174564" y="0.298507" />
+                                <point x="0.5" y="0.0810235" />
+                                <point x="0.84788" y="0.260128" />
+                                <point x="0.998753" y="0.498934" />
+                                <point x="0.839152" y="0.724947" />
+                                <point x="0.5" y="0.993603" />
+                                <point x="0.0822943" y="0.859275" />
+                                <point x="0.0910224" y="0.498934" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Map(4)">
+            <object-type name="TiledBackground3" sid="242178027148715">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(1)\bg.jpg" />
+            </object-type>
+            <object-type name="Tilemap5" sid="513861778275044">
+                <plugin id="Tilemap" />
+                <texture original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(1)\path.png" />
+                <tiles />
+            </object-type>
+            <object-type name="air" sid="543475745602974">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="513910424391912" speed="5">
+                        <frame duration="1" hotspotX="0.500103" hotspotY="0.500352" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(4)\river.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="barn" sid="267720071790482">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="366647162092360" speed="5">
+                        <frame duration="1" hotspotX="0.50046" hotspotY="0.5" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(4)\barn.png">
+                            <collision-poly>
+                                <point x="0.49954" y="0.142308" />
+                                <point x="0.841766" y="0.247436" />
+                                <point x="0.99356" y="0.5" />
+                                <point x="0.847286" y="0.760256" />
+                                <point x="0.49954" y="0.987179" />
+                                <point x="0.0929163" y="0.84359" />
+                                <point x="0.172033" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="pager" sid="257420554860751">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="191323623728073" speed="5">
+                        <frame duration="1" hotspotX="0.495337" hotspotY="0.424242" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(4)\pager.png">
+                            <collision-poly>
+                                <point x="0.0891192" y="0.0374332" />
+                                <point x="0.494301" y="0.283422" />
+                                <point x="0.895337" y="0.0463458" />
+                                <point x="0.986529" y="0.424242" />
+                                <point x="0.952332" y="0.900178" />
+                                <point x="0.494301" y="0.493761" />
+                                <point x="0.0559586" y="0.868093" />
+                                <point x="0.00414508" y="0.424242" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite16" sid="201819835166920">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="276502019267865" speed="5">
+                        <frame duration="1" hotspotX="-0.990521" hotspotY="0.5" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(4)\pager2.png">
+                            <collision-poly>
+                                <point x="0.895735" y="0.144904" />
+                                <point x="0.990521" y="0.886943" />
+                                <point x="0.00473934" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="solidFaker" sid="242514381942470">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="953149152233457">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="919904625965192" speed="5">
+                        <frame duration="1" hotspotX="0.500103" hotspotY="0.500352" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(4)\river.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Mouse" sid="491050109774132">
             <plugin id="Mouse" />
         </object-type>
@@ -1594,16 +1784,18 @@
     </families>
     <layout-folder>
         <layout>Main Menu.xml</layout>
-        <layout>Map 1.xml</layout>
-        <layout>lv 1.xml</layout>
-        <layout>lv complete.xml</layout>
-        <layout>lv 2.xml</layout>
-        <layout>Map 2.xml</layout>
-        <layout>Load Menu.xml</layout>
         <layout>StartMenu.xml</layout>
-        <layout>lv 3.xml</layout>
+        <layout>Load Menu.xml</layout>
+        <layout>Map 1.xml</layout>
+        <layout>Map 2.xml</layout>
         <layout>Map 3.xml</layout>
+        <layout>Map 4.xml</layout>
+        <layout>lv complete.xml</layout>
+        <layout>lv 1.xml</layout>
+        <layout>lv 2.xml</layout>
+        <layout>lv 3.xml</layout>
         <layout>lv 4.xml</layout>
+        <layout>lv 5.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Main Menu.xml</event-sheet>
