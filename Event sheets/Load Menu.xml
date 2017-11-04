@@ -271,6 +271,9 @@
                 <condition id="-2" name="On start of layout" sid="890099305472516" type="System" />
             </conditions>
             <actions>
+                <action id="0" name="Set cursor style" sid="896709249551685" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
                 <action id="5" name="Check item exists" sid="973221870871762" type="LocalStorage">
                     <param id="0" name="Key">&quot;user1&quot;</param>
                 </action>

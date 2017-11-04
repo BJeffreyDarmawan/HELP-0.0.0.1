@@ -1465,7 +1465,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="513910424391912" speed="5">
-                        <frame duration="1" hotspotX="0.500103" hotspotY="0.500352" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(4)\river.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\river.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1768,6 +1768,15 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="river" sid="563911842402068">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="225992867049826">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\river.png" />
+        </object-type>
     </object-folder>
     <families>
         <family name="mainmenuButtons" plugin-id="Sprite" sid="784078290341237">
@@ -1808,6 +1817,7 @@
         <event-sheet>moveNfn.xml</event-sheet>
         <event-sheet>StartMenu.xml</event-sheet>
         <event-sheet>lv 3.xml</event-sheet>
+        <event-sheet>Map 4.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="1" />
