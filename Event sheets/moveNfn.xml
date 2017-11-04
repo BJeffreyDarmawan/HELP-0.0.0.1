@@ -80,19 +80,19 @@
             <actions>
                 <action id="-3" name="Create object" sid="185469490263697" type="System">
                     <param id="0" name="Object to create">Conversation_bg</param>
-                    <param id="1" name="Layer">5</param>
+                    <param id="1" name="Layer">6</param>
                     <param id="2" name="X">17</param>
                     <param id="3" name="Y">352</param>
                 </action>
                 <action id="-3" name="Create object" sid="869151911748118" type="System">
                     <param id="0" name="Object to create">Speaker</param>
-                    <param id="1" name="Layer">5</param>
+                    <param id="1" name="Layer">6</param>
                     <param id="2" name="X">30.611</param>
                     <param id="3" name="Y">364.27</param>
                 </action>
                 <action id="-3" name="Create object" sid="448692164755561" type="System">
                     <param id="0" name="Object to create">Conversation</param>
-                    <param id="1" name="Layer">5</param>
+                    <param id="1" name="Layer">6</param>
                     <param id="2" name="X">31.477</param>
                     <param id="3" name="Y">387.627</param>
                 </action>

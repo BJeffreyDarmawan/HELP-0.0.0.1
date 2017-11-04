@@ -23,13 +23,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="character" />
+    <active-layer name="conv" />
     <layers>
         <layer locked="1" name="tembok jing" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="bg" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="path" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="buildings" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="character" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="kosong" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="conv" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>

@@ -11,17 +11,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Main Menu</layout>
-        <layout order="5">lv 5</layout>
-        <layout order="6">lv 4</layout>
-        <layout order="7">lv 3</layout>
-        <layout order="8">Map 4</layout>
-        <layout order="10">Load Menu</layout>
-        <layout active="1" order="11">lv 6</layout>
+        <layout order="3">lv 5</layout>
+        <layout order="4">lv 3</layout>
+        <layout order="5">Map 4</layout>
+        <layout order="7">Load Menu</layout>
+        <layout order="8">Map 2</layout>
+        <layout order="10">Map 1</layout>
         <event-sheet order="1">StartMenu</event-sheet>
         <event-sheet order="2">moveNfn</event-sheet>
-        <event-sheet order="3">Load Menu</event-sheet>
-        <event-sheet order="4">Main Menu</event-sheet>
-        <event-sheet order="9">Map 1</event-sheet>
+        <event-sheet order="6">Map 1</event-sheet>
+        <event-sheet active="1" order="9">Map 2</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
