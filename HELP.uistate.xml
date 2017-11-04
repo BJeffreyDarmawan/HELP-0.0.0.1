@@ -16,9 +16,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="7">lv 3</layout>
         <layout order="8">Map 4</layout>
         <layout order="10">Load Menu</layout>
+        <layout active="1" order="11">lv 6</layout>
         <event-sheet order="1">StartMenu</event-sheet>
         <event-sheet order="2">moveNfn</event-sheet>
-        <event-sheet active="1" order="3">Load Menu</event-sheet>
+        <event-sheet order="3">Load Menu</event-sheet>
         <event-sheet order="4">Main Menu</event-sheet>
         <event-sheet order="9">Map 1</event-sheet>
     </open-tabs>
@@ -48,6 +49,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/Start Menu/" />
         <folder expanded="0" path="object-folder/lv 5/" />
         <folder expanded="1" path="object-folder/Map(4)/" />
+        <folder expanded="0" path="object-folder/lv 6/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
@@ -131,6 +133,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/pager/" />
         <folder expanded="1" path="animation-folder/Sprite16/" />
         <folder expanded="1" path="animation-folder/solidFaker/" />
+        <folder expanded="1" path="animation-folder/Sprite17/" />
+        <folder expanded="1" path="animation-folder/Sprite18/" />
+        <folder expanded="1" path="animation-folder/Sprite19/" />
+        <folder expanded="1" path="animation-folder/Sprite20/" />
+        <folder expanded="1" path="animation-folder/Sprite21/" />
         <folder expanded="1" path="animation-folder/char/" />
         <folder expanded="1" path="animation-folder/ncess/" />
         <folder expanded="1" path="animation-folder/solidz/" />

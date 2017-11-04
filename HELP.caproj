@@ -1534,6 +1534,101 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="lv 6">
+            <object-type name="Sprite17" sid="114008782273808">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="755492388344534" speed="5">
+                        <frame duration="1" hotspotX="0.500103" hotspotY="0.500184" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(4)-Lvl6\bg.png">
+                            <collision-poly>
+                                <point x="0.0519695" y="0.092545" />
+                                <point x="0.499897" y="0.0760191" />
+                                <point x="0.941225" y="0.104664" />
+                                <point x="0.999794" y="0.499816" />
+                                <point x="0.999794" y="0.999633" />
+                                <point x="0.000206228" y="0.999633" />
+                                <point x="0.000206228" y="0.499816" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite18" sid="248170212077178">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="714930600552707" speed="5">
+                        <frame duration="1" hotspotX="0.475765" hotspotY="0.294274" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\horse.png">
+                            <collision-poly>
+                                <point x="0.475765" y="0.0532624" />
+                                <point x="0.489796" y="0.0466045" />
+                                <point x="0.702806" y="0.292943" />
+                                <point x="0.862245" y="0.929427" />
+                                <point x="0.475765" y="0.985353" />
+                                <point x="0.34949" y="0.65779" />
+                                <point x="0.059949" y="0.292943" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite19" sid="565399712257212">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="405259227495449" speed="5">
+                        <frame duration="1" hotspotX="0.476852" hotspotY="0.492537" original-source="C:\Users\Wilson Fransicius\Desktop\no5_ill_chicken1.png">
+                            <collision-poly>
+                                <point x="0.106481" y="0.19403" />
+                                <point x="0.476852" y="0.343284" />
+                                <point x="0.888889" y="0.160448" />
+                                <point x="0.902778" y="0.492537" />
+                                <point x="0.787037" y="0.742537" />
+                                <point x="0.476852" y="0.996269" />
+                                <point x="0.152778" y="0.753731" />
+                                <point x="0.0416667" y="0.492537" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite20" sid="109600833072806">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="913444534352895" speed="5">
+                        <frame duration="1" hotspotX="0.507724" hotspotY="0.508264" original-source="C:\Users\Wilson Fransicius\Desktop\Goat_cartoon_04.svg.png">
+                            <collision-poly>
+                                <point x="0.200824" y="0.206612" />
+                                <point x="0.506694" y="0.0526859" />
+                                <point x="0.61792" y="0.402893" />
+                                <point x="0.952626" y="0.508264" />
+                                <point x="0.869207" y="0.865702" />
+                                <point x="0.506694" y="0.985537" />
+                                <point x="0.355304" y="0.654959" />
+                                <point x="0.323378" y="0.508264" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite21" sid="388208313622834">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="264119369047195" speed="5">
+                        <frame duration="1" hotspotX="0.505618" hotspotY="0.491429" original-source="C:\Users\Wilson Fransicius\Desktop\Gallery-for-cartoonws-clip-art-clipartcow.png">
+                            <collision-poly>
+                                <point x="0.157303" y="0.257143" />
+                                <point x="0.505618" y="0.02" />
+                                <point x="0.871589" y="0.225714" />
+                                <point x="0.955056" y="0.488571" />
+                                <point x="0.871589" y="0.754286" />
+                                <point x="0.505618" y="0.842857" />
+                                <point x="0.150883" y="0.734286" />
+                                <point x="0.139647" y="0.488571" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Mouse" sid="491050109774132">
             <plugin id="Mouse" />
         </object-type>
@@ -1805,6 +1900,7 @@
         <layout>lv 3.xml</layout>
         <layout>lv 4.xml</layout>
         <layout>lv 5.xml</layout>
+        <layout>lv 6.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Main Menu.xml</event-sheet>
