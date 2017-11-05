@@ -11,16 +11,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Main Menu</layout>
-        <layout order="3">lv 5</layout>
-        <layout order="4">lv 3</layout>
-        <layout order="5">Map 4</layout>
-        <layout order="7">Load Menu</layout>
-        <layout order="8">Map 2</layout>
-        <layout order="10">Map 1</layout>
-        <event-sheet order="1">StartMenu</event-sheet>
-        <event-sheet order="2">moveNfn</event-sheet>
-        <event-sheet order="6">Map 1</event-sheet>
-        <event-sheet active="1" order="9">Map 2</event-sheet>
+        <layout active="1" order="2">lv 3</layout>
+        <layout order="3">Map 2</layout>
+        <layout order="4">Map 1</layout>
+        <event-sheet order="1">moveNfn</event-sheet>
+        <event-sheet order="6">Map 2</event-sheet>
+        <event-sheet order="5">lv 3</event-sheet>
+        <event-sheet order="7">Map 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -40,7 +37,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="object-folder/lvComplete/" />
         <folder expanded="1" path="object-folder/Map(2)/" />
         <folder expanded="0" path="object-folder/lv 2/" />
-        <folder expanded="0" path="object-folder/lv 3/" />
+        <folder expanded="1" path="object-folder/lv 3/" />
         <folder expanded="0" path="object-folder/Map(3)/" />
         <folder expanded="0" path="object-folder/lv 4/" />
         <folder expanded="0" path="object-folder/lv 4/mobil/" />
@@ -103,6 +100,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/anakSheep/" />
         <folder expanded="1" path="animation-folder/mamaSheep/" />
         <folder expanded="1" path="animation-folder/cloudsheep/" />
+        <folder expanded="1" path="animation-folder/inviSprite/" />
         <folder expanded="1" path="animation-folder/Sprite7/" />
         <folder expanded="1" path="animation-folder/Sprite8/" />
         <folder expanded="1" path="animation-folder/Sprite9/" />

@@ -659,18 +659,19 @@
             </object-type>
             <object-type name="wolf_sprite" sid="835356080768102">
                 <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="307951294863650">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="785159537051463" speed="5">
                         <frame duration="1" hotspotX="0.499118" hotspotY="0.500864" original-source="C:\Users\Lenovo\Downloads\sprite_wolf.png">
                             <collision-poly>
-                                <point x="0.978836" y="0.500864" />
-                                <point x="0.920635" y="0.611399" />
-                                <point x="0.500882" y="0.977547" />
-                                <point x="0.185185" y="0.507772" />
-                                <point x="0.169312" y="0.500864" />
-                                <point x="0.026455" y="0.338515" />
-                                <point x="0.500882" y="0.0759931" />
-                                <point x="0.895944" y="0.414508" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.366149" />
+                                <point x="1" y="0.35924" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -916,14 +917,14 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="456488785345817" speed="5">
-                        <frame duration="1" hotspotX="0.402516" hotspotY="0.453782" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(2)-Lvl3\bush.png">
+                        <frame duration="1" hotspotX="0.509434" hotspotY="0.857143" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(2)-Lvl3\bush.png">
                             <collision-poly>
-                                <point x="0.402516" y="0.453782" />
-                                <point x="0.654088" y="0.117647" />
-                                <point x="0.584906" y="0.453782" />
-                                <point x="0.805031" y="0.991597" />
+                                <point x="0.578616" y="0.394958" />
+                                <point x="0.91195" y="0.546218" />
+                                <point x="1" y="0.983194" />
+                                <point x="0.672956" y="0.966387" />
                                 <point x="0.0188679" y="0.966387" />
-                                <point x="0.396226" y="0.453782" />
+                                <point x="0.106918" y="0.521009" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -950,7 +951,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="262814809463309" speed="5">
-                        <frame duration="1" hotspotX="0.46087" hotspotY="1.14773" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(2)-Lvl3\anak-sapi.png">
+                        <frame duration="1" hotspotX="0.53913" hotspotY="0.454545" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(2)-Lvl3\anak-sapi.png">
                             <collision-poly>
                                 <point x="0.0347826" y="0.590909" />
                                 <point x="0.46087" y="0.0454545" />
@@ -975,7 +976,7 @@
                                 <point x="0.0586735" y="0.895307" />
                                 <point x="0.0612244" y="0.783394" />
                                 <point x="0.0790817" y="0.703971" />
-                                <point x="0.451531" y="0.00361014" />
+                                <point x="0.451531" y="0.00361013" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -985,14 +986,31 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="543172654719277" speed="5">
-                        <frame duration="1" hotspotX="0.72" hotspotY="1.26087" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(2)-Lvl3\cloud.png">
+                        <frame duration="1" hotspotX="0.393333" hotspotY="0.51087" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(2)-Lvl3\cloud.png">
                             <collision-poly>
-                                <point x="0.1" y="0.25" />
-                                <point x="0.72" y="0.402174" />
-                                <point x="0.986667" y="0.826087" />
+                                <point x="0.166667" y="0.0108696" />
+                                <point x="0.646667" y="0" />
+                                <point x="0.86" y="0.706522" />
                                 <point x="0.54" y="0.967391" />
-                                <point x="0.72" y="0.826087" />
-                                <point x="0.973333" y="0.847826" />
+                                <point x="0.0600003" y="0.967391" />
+                                <point x="0.0133333" y="0.663043" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="inviSprite" sid="729626261818955">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="939723262669568" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0" y="0.2" />
+                                <point x="0.5" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.312" y="0.996" />
+                                <point x="0" y="0.636" />
                             </collision-poly>
                         </frame>
                     </animation>

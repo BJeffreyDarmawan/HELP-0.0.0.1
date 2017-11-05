@@ -24,21 +24,16 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action behavior="8Direction" id="8" name="Set enabled" sid="630240525999440" type="char">
+                            <param id="0" name="State">0</param>
+                        </action>
                         <action id="-7" name="Scroll to position" sid="204058621182261" type="System">
                             <param id="0" name="X">0</param>
                             <param id="1" name="Y">0</param>
                         </action>
-                        <action id="0" name="Call function" sid="836983809590235" type="Function">
-                            <param id="0" name="Name">&quot;createMSGDialog&quot;</param>
-                            <param id="1" name="Parameter {n}"></param>
-                        </action>
                         <action id="-10" name="Add to" sid="886210814923223" type="System">
                             <param id="0" name="Variable">conv</param>
                             <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="0" name="Call function" sid="688810729958977" type="Function">
-                            <param id="0" name="Name">&quot;importAJAX&quot;</param>
-                            <param id="1" name="Parameter {n}"></param>
                         </action>
                         <action behavior="Bullet" id="3" name="Set angle of motion" sid="603398616391734" type="ncess">
                             <param id="0" name="Angle">0</param>
@@ -46,8 +41,19 @@
                         <action behavior="Bullet" id="5" name="Set enabled" sid="588580762307391" type="ncess">
                             <param id="0" name="State">1</param>
                         </action>
+                        <action id="0" name="Call function" sid="763459580402617" type="Function">
+                            <param id="0" name="Name">&quot;createMSGDialog&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="0" name="Call function" sid="895854173838333" type="Function">
+                            <param id="0" name="Name">&quot;importAJAX&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
                         <action id="-16" name="Wait" sid="174970740257795" type="System">
-                            <param id="0" name="Seconds">1.0</param>
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action behavior="8Direction" id="8" name="Set enabled" sid="663746379445483" type="char">
+                            <param id="0" name="State">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -60,6 +66,7 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-9" name="Destroy" sid="485874428118475" type="ncess" />
                         <action id="-3" name="Set position" sid="977677104628023" type="char">
                             <param id="0" name="X">wolf_sprite.X-50</param>
                             <param id="1" name="Y">wolf_sprite.Y</param>
@@ -71,9 +78,64 @@
                             <param id="0" name="Variable">conv</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Call function" sid="300310664692087" type="Function">
+                            <param id="0" name="Name">&quot;createMSGDialog&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action disabled="1" id="0" name="Call function" sid="340947373533607" type="Function">
+                            <param id="0" name="Name">&quot;importAJAX&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
                         <action id="0" name="Call function" sid="711583929769199" type="Function">
                             <param id="0" name="Name">&quot;story&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="902735393280669" type="System">
+                            <param id="0" name="Seconds">4</param>
+                        </action>
+                        <action behavior="8Direction" id="8" name="Set enabled" sid="613871905414969" type="char">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="812955055106283">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="873547468543285" type="System">
+                            <param id="0" name="Variable">beenHere</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="626871286047838" type="ncess" />
+                        <action id="-3" name="Set position" sid="171747166284277" type="char">
+                            <param id="0" name="X">mamaSheep.X-50</param>
+                            <param id="1" name="Y">mamaSheep.Y</param>
+                        </action>
+                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="786707946785739" type="char">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="723952068112755" type="System">
+                            <param id="0" name="Variable">conv</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="696761190456235" type="Function">
+                            <param id="0" name="Name">&quot;createMSGDialog&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action disabled="1" id="0" name="Call function" sid="311923646322693" type="Function">
+                            <param id="0" name="Name">&quot;importAJAX&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="0" name="Call function" sid="158597569137238" type="Function">
+                            <param id="0" name="Name">&quot;story&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="885778285734111" type="System">
+                            <param id="0" name="Seconds">4</param>
+                        </action>
+                        <action behavior="8Direction" id="8" name="Set enabled" sid="588149763820575" type="char">
+                            <param id="0" name="State">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -195,7 +257,7 @@
                     <param id="1" name="Parameter {n}"></param>
                 </action>
                 <action id="-16" name="Wait" sid="550481408774725" type="System">
-                    <param id="0" name="Seconds">2</param>
+                    <param id="0" name="Seconds">3</param>
                 </action>
                 <action behavior="Bullet" id="0" name="Set speed" sid="656280808951575" type="char">
                     <param id="0" name="Speed">200</param>
@@ -244,6 +306,11 @@
                     <param id="0" name="Comparison">4</param>
                     <param id="1" name="Speed">0</param>
                 </condition>
+                <condition id="-14" name="Compare variable" sid="335903738379969" type="System">
+                    <param id="0" name="Variable">beenHere</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action behavior="Bullet" id="0" name="Set speed" sid="615364229193932" type="char">
@@ -269,10 +336,166 @@
                     <param id="2" name="Value">6</param>
                 </condition>
                 <condition id="-4" name="Trigger once while true" sid="607688301287983" type="System" />
+                <condition id="-14" name="Compare variable" sid="670577719376050" type="System">
+                    <param id="0" name="Variable">beenHere</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="802634500240006" type="System">
                     <param id="0" name="Layout">lv 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="195960760213030">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="798442820785459" type="System">
+                    <param id="0" name="First value">ncess.X</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">1000</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="162626935152294" type="ncess" />
+            </actions>
+        </event-block>
+        <event-block sid="450489041343749">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="776944034661329" type="System">
+                    <param id="0" name="First value">char.Y</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">884</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="302290017479860" type="System">
+                    <param id="0" name="Variable">story</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">7</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="369105296425773">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="495629122438270" type="System">
+                            <param id="0" name="First value">char.X</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Second value">1044</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="665155629037021" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="494961257819945" type="System">
+                            <param id="0" name="Variable">conv</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="672539535593046" type="char">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action behavior="8Direction" id="3" name="Set speed" sid="343408526378845" type="char">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                        <action behavior="8Direction" id="8" name="Set enabled" sid="607665904214337" type="char">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="442869642371997" type="char">
+                            <param id="0" name="Instance variable">distx</param>
+                            <param id="1" name="Value">(mamaSheep.X-char.X)/200</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="250533395512158" type="char">
+                            <param id="0" name="Instance variable">disty</param>
+                            <param id="1" name="Value">(mamaSheep.Y-char.Y)/200</param>
+                        </action>
+                        <action id="0" name="Call function" sid="112082866656268" type="Function">
+                            <param id="0" name="Name">&quot;viewToSheep&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="808427717151334" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="203571785364088" type="char">
+                            <param id="0" name="Speed">200</param>
+                        </action>
+                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="890638418156680" type="char">
+                            <param id="0" name="Angle">0</param>
+                        </action>
+                        <action behavior="Bullet" id="5" name="Set enabled" sid="359424202860653" type="char">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="274296942898016">
+            <conditions>
+                <condition id="0" name="On function" sid="185980556233951" type="Function">
+                    <param id="0" name="Name">&quot;viewToSheep&quot;</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="895840833552643" type="System">
+                    <param id="0" name="First value">scrollx</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Second value">mamaSheep.X-50</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Scroll to position" sid="137472793512355" type="System">
+                    <param id="0" name="X">scrollx+char.distx</param>
+                    <param id="1" name="Y">scrollx+char.disty</param>
+                </action>
+                <action id="-16" name="Wait" sid="592843409726161" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="0" name="Call function" sid="895810845501278" type="Function">
+                    <param id="0" name="Name">&quot;viewToSheep&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="250268226526112">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="114780779635047" type="System">
+                    <param id="0" name="First value">char.X</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">mamaSheep.X-50</param>
+                </condition>
+                <condition behavior="Bullet" id="0" name="Compare speed" sid="142546690150150" type="char">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Speed">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="0" name="Set speed" sid="416855172363975" type="char">
+                    <param id="0" name="Speed">0</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="642459410784302" type="char">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="373762350056530" type="char">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="0" name="Call function" sid="476305145902364" type="Function">
+                    <param id="0" name="Name">&quot;story&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="398305415310918">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="285595416659514" type="System">
+                    <param id="0" name="Variable">story</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">8</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="600032753675457" type="System" />
+                <condition id="-14" name="Compare variable" sid="664253094346100" type="System">
+                    <param id="0" name="Variable">beenHere</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="307226151554247" type="System">
+                    <param id="0" name="Layout">lv 3</param>
                 </action>
             </actions>
         </event-block>

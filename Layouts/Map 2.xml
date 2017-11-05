@@ -957,6 +957,35 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="invisibleTembok2" uid="893">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1551</x>
+                        <y>87</y>
+                        <z>0</z>
+                        <width>64</width>
+                        <height>224</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50220263</hotspotX>
+                        <hotspotY>0.50220263</hotspotY>
+                        <angle>-0.527850211</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -1648,8 +1677,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-189</x>
-                        <y>566</y>
+                        <x>122</x>
+                        <y>943</y>
                         <z>0</z>
                         <width>110.315338135</width>
                         <height>168.825119019</height>
@@ -1670,8 +1699,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-93</x>
-                        <y>616</y>
+                        <x>314</x>
+                        <y>978</y>
                         <z>0</z>
                         <width>110.315338135</width>
                         <height>168.825119019</height>
@@ -1692,8 +1721,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-116</x>
-                        <y>738</y>
+                        <x>233</x>
+                        <y>953</y>
                         <z>0</z>
                         <width>110.315338135</width>
                         <height>168.825119019</height>
@@ -2694,6 +2723,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="tree1" uid="167">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1521</x>
+                        <y>52</y>
+                        <z>0</z>
+                        <width>110.315338135</width>
+                        <height>168.825119019</height>
+                        <depth>0</depth>
+                        <hotspotX>0.262430936</hotspotX>
+                        <hotspotY>0.261732846</hotspotY>
+                        <angle>-0.386377126</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -2755,8 +2806,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>54</x>
-                        <y>66</y>
+                        <x>68</x>
+                        <y>70</y>
                         <z>0</z>
                         <width>40.935596466</width>
                         <height>96.151046753</height>
@@ -2797,6 +2848,28 @@
                         <depth>0</depth>
                         <hotspotX>0.38202247</hotspotX>
                         <hotspotY>0.525423706</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="mamaSheep" uid="83">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1266.908569336</x>
+                        <y>944.87512207</y>
+                        <z>0</z>
+                        <width>78.256835938</width>
+                        <height>55.298835754</height>
+                        <depth>0</depth>
+                        <hotspotX>0.548469365</hotspotX>
+                        <hotspotY>0.787003636</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -3209,28 +3282,6 @@
                         <z>0</z>
                         <width>110</width>
                         <height>169</height>
-                        <depth>0</depth>
-                        <hotspotX>0.262430936</hotspotX>
-                        <hotspotY>0.261732846</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tree1" uid="167">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1673</x>
-                        <y>52</y>
-                        <z>0</z>
-                        <width>110.315338135</width>
-                        <height>168.825119019</height>
                         <depth>0</depth>
                         <hotspotX>0.262430936</hotspotX>
                         <hotspotY>0.261732846</hotspotY>
@@ -4697,11 +4748,18 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>914</x>
-                        <y>88</y>
+                        <y>54</y>
                         <z>0</z>
                         <width>92.461166382</width>
                         <height>94.418022156</height>
