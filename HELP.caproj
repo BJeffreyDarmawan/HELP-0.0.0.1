@@ -1647,6 +1647,34 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="Map(5)">
+            <object-type name="Tilemap6" sid="687809814922688">
+                <plugin id="Tilemap" />
+                <texture original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(1)\path.png" />
+                <tiles />
+            </object-type>
+            <object-type name="Tilemap7" sid="780112141826466">
+                <plugin id="Tilemap" />
+                <texture original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(3)\road.png" />
+                <tiles />
+            </object-type>
+        </object-folder>
+        <object-folder name="Map(6)">
+            <object-type name="Tilemap8" sid="116159779249291">
+                <plugin id="Tilemap" />
+                <texture original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(3)\brumbrum.png" />
+                <tiles />
+            </object-type>
+            <object-type name="Tilemap9" sid="841909350388232">
+                <plugin id="Tilemap" />
+                <texture original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(3)\road.png" />
+                <tiles />
+            </object-type>
+            <object-type name="TiledBackground4" sid="937165290208040">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\Map(1)\path.png" />
+            </object-type>
+        </object-folder>
         <object-type name="Mouse" sid="491050109774132">
             <plugin id="Mouse" />
         </object-type>
@@ -1890,6 +1918,14 @@
             </behaviors>
             <texture original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\river.png" />
         </object-type>
+        <object-type name="002_4_Small_Mazes" sid="707507195914125">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="174302009163794" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="mainmenuButtons" plugin-id="Sprite" sid="784078290341237">
@@ -1912,6 +1948,8 @@
         <layout>Map 2.xml</layout>
         <layout>Map 3.xml</layout>
         <layout>Map 4.xml</layout>
+        <layout>Map 5.xml</layout>
+        <layout>Map 6.xml</layout>
         <layout>lv complete.xml</layout>
         <layout>lv 1.xml</layout>
         <layout>lv 2.xml</layout>
@@ -1919,6 +1957,9 @@
         <layout>lv 4.xml</layout>
         <layout>lv 5.xml</layout>
         <layout>lv 6.xml</layout>
+        <layout>lv 7.xml</layout>
+        <layout>lv 8.xml</layout>
+        <layout>lv 9.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Main Menu.xml</event-sheet>
